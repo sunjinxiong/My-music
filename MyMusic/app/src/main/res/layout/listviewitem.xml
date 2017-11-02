@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/laba"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/aaf"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:maxLength="30"
+        android:layout_height="wrap_content"
+        android:text="人名"
+        android:textSize="20dp"
+        />
+
+    <ImageView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/ha"
+        android:layout_below="@id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zb"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="70dp"
+        android:layout_below="@id/name"
+        android:id="@+id/gename"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="歌名"
+
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/zk"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</RelativeLayout>
